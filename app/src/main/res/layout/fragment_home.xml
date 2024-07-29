@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machado de Assis e a Academia Brasileira de Letras"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textView_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machado de Assis foi o principal fundador da Academia Brasileira de Letras, em 15 de dezembro de 1896. No dia 20 de julho do ano seguinte, a ABL foi inaugurada e o escritor se tornou o primeiro presidente da instituição, além de ocupar a cadeira de número 23.\n\nCaracterísticas da obra de Machado de Assis\nMachado de Assis foi o principal representante do realismo brasileiro. Ele é mais conhecido pelos livros de sua segunda fase, caracterizada, principalmente, pela crítica à idealização romântica. Veja, a seguir, sobre suas duas fases.\n\nPrimeira fase: o narrador se entrega à subjetividade romântica, mostra amores idealizados e heroínas perfeitas. Uma característica comum às obras românticas de Machado de Assis é a questão da ascensão social, relacionada a alguns personagens. A ironia está presente, não sendo exclusividade de seus livros realistas.\n\nSegunda fase: os romances realistas do autor fazem uso da ironia para criticar a elite burguesa, mostrada como corrupta, hipócrita e interesseira. Para a análise psicológica dos personagens, a narrativa apresenta o monólogo interior, e possui uma temática típica desse tipo de romance, isto é, o adultério. Como o realismo é um estilo de época que valoriza a razão em detrimento da emoção, a linguagem das obras realistas é mais objetiva."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"/>
+
+    </LinearLayout>
+</ScrollView>

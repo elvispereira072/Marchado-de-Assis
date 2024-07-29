@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Principais Obras de Machado de Assis"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textView_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoje avental, amanhã luva (1860) — teatro\nDesencantos (1861) — teatro\nO caminho da porta (1863) — teatro\nO protocolo (1863) — teatro\nCrisálidas (1864) — poesia\nQuase ministro (1864) — teatro\nAs forcas caudinas (1865) — teatro\nOs deuses de casaca (1866) — teatro\nContos fluminenses (1870) — contos\nFalenas (1870) — poesia\nRessurreição (1872) — romance\nHistórias da meia-noite (1873) — contos\nA mão e a luva (1874) — romance\nAmericanas (1875) — poesia\nHelena (1876) — romance\nIaiá Garcia (1878) — romance\nOcidentais (1880) — poesia\nTu, só tu, puro amor (1881) — teatro\nMemórias póstumas de Brás Cubas (1881) — romance\nPapéis avulsos (1882) — contos\nHistórias sem data (1884) — contos\nCasa velha (1885) — romance\nQuincas Borba (1891) — romance\nVárias histórias (1896) — contos\nNão consultes médico (1896) — teatro\nDom Casmurro (1899) — romance\nPáginas recolhidas (1899) — contos\nEsaú e Jacó (1904) — romance\nRelíquias de casa velha (1906) — contos\nLição de botânica (1906) — teatro\nMemorial de Aires (1908) — romance"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"/>
+
+    </LinearLayout>
+</ScrollView>

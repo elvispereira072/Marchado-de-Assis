@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biografia de Machado de Assis"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textView_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machado de Assis (Joaquim Maria Machado de Assis) nasceu em 21 de junho de 1839, no Rio de Janeiro. De origem pobre, era filho de um brasileiro com uma açoriana. Ele teve uma irmã mais nova, que faleceu com quatro anos, em 1845. Quatro anos depois, ficou órfão de mãe.\n\nEm 1854, o pai do escritor se casou pela segunda vez. A madrasta de Machado de Assis se chamava Maria Inês da Silva, e foi para ele uma segunda mãe. Dois anos depois, em 1856, o autor publicou seu primeiro poema, intitulado “Ela”, no jornal Marmota Fluminense. Ainda em 1856, passou a trabalhar como aprendiz de tipógrafo na Tipografia Nacional.\n\nEm seguida, no ano de 1858, trabalhou como revisor na livraria do jornalista e escritor Paulo Brito (1809-1861). Nesse ano, também iniciou seus estudos de francês e latim. No ano seguinte, trabalhou como crítico teatral para a revista O Espelho. Já em 1860, passou a escrever para periódicos como Diário do Rio de Janeiro e A Semana Ilustrada.\n\nTambém escreveu para o periódico literário O Futuro, em 1862. Cinco anos depois, em 1867, recebeu o título de Cavaleiro da Ordem da Rosa e passou a trabalhar no Diário Oficial. Já em 1869, Machado de Assis se casou com a portuguesa Carolina Augusta Xavier de Novais (1835-1904).\n\nNão pare agora... Tem mais depois da publicidade ;)\n\nA nomeação do autor para trabalhar na Secretaria de Estado do Ministério da Agricultura, Comércio e Obras Públicas ocorreu em 1873. Paralelamente ao serviço público, ele escrevia seus textos literários. Assim, Memórias póstumas de Brás Cubas foi publicado em 1881, sendo um de seus romances mais famosos.\n\nEm 1888, recebeu o título de Oficial da Ordem da Rosa. A essa altura, já era um romancista bastante conhecido, e, além de suas poesias, peças de teatro e contos, também escrevia crônicas, publicadas em diversos periódicos da época. Era, portanto, um homem bem-sucedido, apesar de que enfrentava preconceito por ser negro, gago e sofrer de epilepsia.\n\nFicou bastante abalado com a morte da esposa, em 1904. Assim, em 1906, escreveu o soneto “A Carolina”, em homenagem a ela. Dois anos depois, tirou licença do trabalho para cuidar da saúde, e morreu em 29 de setembro de 1908, no Rio de Janeiro. Em seus últimos momentos, teve o carinho do escritor Mário de Alencar (1872-1925), que era como um filho para o autor."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"/>
+
+    </LinearLayout>
+</ScrollView>
